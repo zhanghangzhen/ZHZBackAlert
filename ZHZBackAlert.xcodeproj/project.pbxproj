@@ -15,6 +15,10 @@
 		925B36F61CB3BD6300C412D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 925B36F41CB3BD6300C412D6 /* LaunchScreen.storyboard */; };
 		925B37011CB3BD6300C412D6 /* ZHZBackAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925B37001CB3BD6300C412D6 /* ZHZBackAlertTests.m */; };
 		925B370C1CB3BD6300C412D6 /* ZHZBackAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 925B370B1CB3BD6300C412D6 /* ZHZBackAlertUITests.m */; };
+		925B372A1CB3BEFA00C412D6 /* HYBAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925B37231CB3BEFA00C412D6 /* HYBAViewController.m */; };
+		925B372B1CB3BEFA00C412D6 /* HYBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925B37251CB3BEFA00C412D6 /* HYBBaseViewController.m */; };
+		925B372C1CB3BEFA00C412D6 /* HYBBController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925B37271CB3BEFA00C412D6 /* HYBBController.m */; };
+		925B372D1CB3BEFA00C412D6 /* HYBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 925B37291CB3BEFA00C412D6 /* HYBNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		925B37071CB3BD6300C412D6 /* ZHZBackAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZHZBackAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		925B370B1CB3BD6300C412D6 /* ZHZBackAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZHZBackAlertUITests.m; sourceTree = "<group>"; };
 		925B370D1CB3BD6300C412D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		925B37221CB3BEFA00C412D6 /* HYBAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBAViewController.h; sourceTree = "<group>"; };
+		925B37231CB3BEFA00C412D6 /* HYBAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBAViewController.m; sourceTree = "<group>"; };
+		925B37241CB3BEFA00C412D6 /* HYBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBBaseViewController.h; sourceTree = "<group>"; };
+		925B37251CB3BEFA00C412D6 /* HYBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBBaseViewController.m; sourceTree = "<group>"; };
+		925B37261CB3BEFA00C412D6 /* HYBBController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBBController.h; sourceTree = "<group>"; };
+		925B37271CB3BEFA00C412D6 /* HYBBController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBBController.m; sourceTree = "<group>"; };
+		925B37281CB3BEFA00C412D6 /* HYBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYBNavigationController.h; sourceTree = "<group>"; };
+		925B37291CB3BEFA00C412D6 /* HYBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYBNavigationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +113,14 @@
 		925B36E51CB3BD6300C412D6 /* ZHZBackAlert */ = {
 			isa = PBXGroup;
 			children = (
+				925B37221CB3BEFA00C412D6 /* HYBAViewController.h */,
+				925B37231CB3BEFA00C412D6 /* HYBAViewController.m */,
+				925B37241CB3BEFA00C412D6 /* HYBBaseViewController.h */,
+				925B37251CB3BEFA00C412D6 /* HYBBaseViewController.m */,
+				925B37261CB3BEFA00C412D6 /* HYBBController.h */,
+				925B37271CB3BEFA00C412D6 /* HYBBController.m */,
+				925B37281CB3BEFA00C412D6 /* HYBNavigationController.h */,
+				925B37291CB3BEFA00C412D6 /* HYBNavigationController.m */,
 				925B36E91CB3BD6300C412D6 /* AppDelegate.h */,
 				925B36EA1CB3BD6300C412D6 /* AppDelegate.m */,
 				925B36EC1CB3BD6300C412D6 /* ViewController.h */,
@@ -270,8 +290,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				925B372C1CB3BEFA00C412D6 /* HYBBController.m in Sources */,
+				925B372B1CB3BEFA00C412D6 /* HYBBaseViewController.m in Sources */,
 				925B36EE1CB3BD6300C412D6 /* ViewController.m in Sources */,
 				925B36EB1CB3BD6300C412D6 /* AppDelegate.m in Sources */,
+				925B372D1CB3BEFA00C412D6 /* HYBNavigationController.m in Sources */,
+				925B372A1CB3BEFA00C412D6 /* HYBAViewController.m in Sources */,
 				925B36E81CB3BD6300C412D6 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +520,7 @@
 				925B37121CB3BD6300C412D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		925B37131CB3BD6300C412D6 /* Build configuration list for PBXNativeTarget "ZHZBackAlertTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +529,7 @@
 				925B37151CB3BD6300C412D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		925B37161CB3BD6300C412D6 /* Build configuration list for PBXNativeTarget "ZHZBackAlertUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +538,7 @@
 				925B37181CB3BD6300C412D6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
